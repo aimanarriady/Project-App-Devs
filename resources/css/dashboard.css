@@ -1,0 +1,121 @@
+.menu-container{
+    color:#fff;
+    background-color: #5995DA;
+    padding: 10px 0;
+    display: flex;
+    justify-content: center;
+    border: 1px solid black;
+}
+
+.menu {
+    
+    width:1200px;
+    display: flex;
+    justify-content: space-between;
+    
+}
+
+.main{
+    margin-top: 20px;
+    margin-left: 40px;
+    display: flex;
+
+}
+
+.title-1{
+   font-size: large;
+   margin-right: 5px;
+}
+
+.title-2{
+    font-size: 150%;
+    margin-left: 350px;
+    
+    font-style: italic;
+    font-family:Tahoma, Verdana, sans-serif;
+}
+
+.links{
+    margin-top: 42px;
+    margin-right: 40px;
+    display: flex;
+    justify-content: flex-end;
+    font-weight: bold;
+    
+}
+
+
+.name:hover{
+    color: yellow;
+}
+
+.logout:hover{
+    color: yellow;
+}
+
+
+.logout{
+    
+    margin-left: 30px;
+
+}
+
+.header-container{
+    color: #5995DA;
+    background-color: #D6E9FE;
+    display: flex;
+    justify-content: center;
+}
+
+.header{
+    width: 900px;
+    height: 150px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.integrate-container{
+    display: flex;
+    justify-content: center;
+}
+
+.dash{
+    width: 900px;
+    display: flex;
+    justify-content: flex-start;
+    flex-wrap: wrap;
+    justify-content: center;
+    text-align: center;
+}
+
+.Manage{
+    border: 2px solid black;
+    width: 150px;
+    height: 150px;
+
+}
+.M1{
+    border: 2px solid black;
+    width: 150px;
+    height: 150px;
+}
+
+.footer{
+    display:flex;
+    justify-content: space-between;
+}
+
+.fi{
+    border: 1px #fff;
+    background-color: #D6E9FE;
+    height:200px;
+    flex: 1;
+}
+
+.footer-one,
+.footer-three{
+    background-color: #5995DA;
+    flex: initial;
+    width: 300px;
+}
